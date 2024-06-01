@@ -9,9 +9,9 @@ class Human:
   # メソッドを定義
     def check_adult(self):
         if self.age >= 20:
-            print(f"{self.name}は20歳以上（{self.age}歳）なので大人です。")
+            print(f"{self.name}は{self.age}歳なので大人です。")
         else:
-            print(f"{self.name}は20歳未満（{self.age}歳）なので大人ではありません。")
+            print(f"{self.name}は{self.age}歳なので大人ではありません。")
 
 
 # インスタンスを複数作成してリストに追加する関数
